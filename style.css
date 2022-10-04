@@ -25,6 +25,9 @@ body{
     -moz-appearance: none;
     -webkit-appearance: none;
 }
+.subtitle {
+    text-align: center;
+}
 .seat{
     background-color: #444451;
     height: 12px;
