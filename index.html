@@ -2,99 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Movie Seat Booking</title>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="movie-container">
-      <h1>Now showing: Morbius</h1>
-      <p class="subtitle">Book your tickets now!</p>
-    </div>
-    <ul class="showcase">
-      <li>
-        <div class="seat"></div>
-        <small>N/A</small>
-      </li>
-      <li>
-        <div class="seat selected"></div>
-        <small>Selected</small>
-      </li>
-      <li>
-        <div class="seat occupied"></div>
-        <small>Occupied</small>
-      </li>
-    </ul>
     <div class="container">
-      <div class="screen"></div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+      <div class="img-container">
+        <img
+          src="./images/image-equilibrium.jpg"
+          class="nft-img"
+          alt="Image of Equilibrium #3429"
+        />
+        <div class="view-container">
+          <img
+            src="./images/icon-view.svg"
+            class="view-img"
+            alt="Image of view icon"
+          />
+        </div>
       </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
+      <h1>Equilibrium #3429</h1>
+      <p class="desc">Our Equilibrium collection promotes balance and calm.</p>
+
+      <img
+        src="./images/icon-ethereum.svg"
+        class="currency-icon"
+        alt="Ethereum Currency Icon"
+      />
+      <p class="price">0.041 ETH</p>
+
+      <img src="./images/icon-clock.svg" class="clock-icon" alt="Clock icon" />
+      <p class="time">3 days left</p>
+      <hr />
+
+      <img
+        src="./images/image-avatar.png"
+        class="creator-img"
+        alt="Image of Jules Wyvern"
+      />
+      <p class="creator">Creation of</p>
+      <p class="creator-name">Jules Wyvern</p>
     </div>
-    <p class="text">
-      You have selected <span id="count">0</span> seats for the price of $<span
-        id="total"
-        >0</span
-      >
-    </p>
-    <button class="confirm">Confirm</button>
   </body>
 </html>
